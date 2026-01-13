@@ -39,8 +39,6 @@ npm run dev
 
 ### 환경 변수 사용
 - **로컬 개발**: 기본적으로 로컬 백엔드(`localhost:5000`)를 사용합니다 (프록시 사용)
-- **로컬에서 Heroku 백엔드 사용**: `.env.local` 파일에 `VITE_API_BASE_URL=https://vibe-todo-backends-eaa7d6f19e23.herokuapp.com` 설정
-- **프로덕션 배포**: Heroku Config Vars에 `VITE_API_BASE_URL=https://vibe-todo-backends-eaa7d6f19e23.herokuapp.com` 설정
 - 환경 변수는 `VITE_` 접두사가 필요합니다 (Vite 요구사항)
 - `App.jsx`에서도 환경 변수를 사용할 수 있습니다 (`src/config/api.js` 참조)
 
