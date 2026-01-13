@@ -1,0 +1,117 @@
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.app-header {
+  text-align: center;
+  color: white;
+  margin-bottom: 32px;
+}
+
+.app-header h1 {
+  margin: 0 0 8px 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.app-header p {
+  margin: 0;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.todos-section {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.todos-section h2 {
+  margin: 0 0 20px 0;
+  color: #333;
+  font-size: 24px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 12px;
+}
+
+.todos-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.loading,
+.error,
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  color: #666;
+}
+
+.error {
+  color: #f44336;
+}
+
+.error p {
+  margin: 0 0 16px 0;
+}
+
+.error-help {
+  margin: 16px 0;
+  padding: 16px;
+  background: #fff3cd;
+  border-left: 4px solid #ffc107;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.error-help p {
+  margin: 0 0 8px 0;
+  color: #856404;
+}
+
+.error-help ul {
+  margin: 8px 0 0 20px;
+  color: #856404;
+}
+
+.error-help li {
+  margin: 4px 0;
+}
+
+.error-help code {
+  background: #fff;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: monospace;
+  font-size: 0.9em;
+}
+
+.btn-retry {
+  padding: 10px 20px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-retry:hover {
+  background-color: #0b7dda;
+}
+
+.empty-state {
+  color: #999;
+  font-size: 16px;
+}
